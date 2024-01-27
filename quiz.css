@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+*{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#close{
+    display: none;
+    float: right;
+    font-family: 'Tajawal';
+    color: #E5AD3C;
+    font-size: 40px;
+}
+
+#header{
+    height: 50px;
+}
+
+#hleft{
+    margin: 0;
+    margin-right: 25%;
+    margin-left: 0;
+    
+    
+}
+
+#menu{
+    height: 30px;
+    width: 35px;
+    display: none;
+    margin-left: 0.5cm;
+    margin-top: 15px;
+    
+}
+
+.menuline{
+    margin: 0;
+    padding: 0;
+    margin-top:7px;
+    border-top: solid 2px;
+    color: #E5AD3C;
+    width: 22px;
+    ;
+}
+ul{
+    float: left;
+    width: 55%;
+    margin: 3% 0 0 0;
+    padding: 0;
+}
+a{
+    list-style-type: none;
+    text-decoration-line: none;
+    color: #2E4098;
+    font-family: 'Tajawal';    
+    float: none;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+    margin-right: 30px;
+    
+}
+
+#hlogo{
+    width: 57px;
+    height: 87px;
+    margin: 2% 0.5cm 0 0;
+    padding: 0;
+    float: right;
+    
+}
+#firstq{
+    margin-top: 0%;
+}
+.q{
+   
+    float: right;
+    width: 100%;
+    height: 700px;
+    margin-top:12%; 
+}
+
+
+.ri{
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 200px;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 290px;
+}
+
+
+.color{
+    background-color: #E8E8E8;
+    height: 750px;
+}
+
+.imq{
+    width: 250px;
+    height:250px;
+    float: right;
+    margin-right: 35%;
+    margin-top: 13%;
+}
+
+.qustions{
+    float: right;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
+}
+
+
+p{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    text-align: right;
+    font-family: 'Tajawal';    
+    font-size: 25px;
+    color: #2E4098;
+}
+input{
+    margin-top: 4%;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.first{
+    margin-top: 8%;
+}
+
+#result{
+    display: none;
+    margin-right: 49%;
+    margin-top: 50%;
+    
+}
+
+
+#doctor{ 
+    width: 250px;
+    height: 50px;
+    background-color: #E5AD3C;
+    color: white;
+    margin: 1% 0 100px 90%;
+    padding: 0;
+    border: none;
+    border-radius: 53px;
+    font-size: 22px;
+    font-family: 'Tajawal';
+}
+#result a{
+    width: 250px;
+    height: 50px;
+    font-size: 0px;
+}
+
+#footer{
+    background-color: #2E4098;
+    width: 100%;
+    height: 70px;
+    margin-top: 100%;
+    padding: 0;
+    padding-top: 10px;
+}
+h1{
+    width: 200px;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    margin-top: 1%;
+    color: white;
+    margin-left: 2%;
+}
+#moq2020{
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    font-size: 23px;
+    color: white;
+    text-align: left
+}
+
+#fotimg{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30%;;
+    margin-top: 1%;
+    width: 68px;
+    height: 44px;
+    float: left;
+}
+#soshiallogo{
+    float: right;
+    margin-top: 1%;
+    margin-right: 3%;
+    
+}
+#inastagram{
+    height: 40px;
+    width: 53px;
+    margin: 0 -5px 0 0;
+    padding: 0;
+    float: left;
+
+}
+
+#email{
+    height: 40px;
+    width: 53px;
+    margin: 0 -5px 0 -5px;
+    padding: 0;
+    float: left;
+}
+
+#location{
+    height: 40px;
+    width: 53px;
+    margin: 0 0 0 -5px;
+    padding: 0;
+    float: left;
+}
+
+
+#result{
+    height: 200px;
+    margin-top: 10%;
+}
+
+#titleresult{
+    width: 250px;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 90%;
+    color: #E5AD3C;
+}
+
+#tresullt{
+    margin-left: 20%;
+    height: 40px;
+    margin: 0 0 0 79%;
+    width: 500px;
+    
+}
+
+
+#presult{
+    margin: 0 3px 0 3px;
+}
+
+
+#Square{
+    border: solid 2px #E5AD3C;
+    width: 700px;
+    height: 180px;
+    margin: 0;
+    margin-left: 75%;
+    padding: 0;
+    border-radius: 53px;
+}
+
+#Squaretext{
+    margin: 5% 1% 0 0;
+    text-align: center;
+}
+
+
+
+
+
+@media  (max-width:1125px){
+    ul{
+        width: 65%;
+  
+}
+    
+
+    
+}
+
+
+
+@media  (max-width:1062px){
+    ul{
+        width: 70%;
+  
+}
+    
+}
+
+
+@media  (max-width:989px){
+    ul{
+        width: 75%;
+  
+}
+    
+}
+
+
+@media  (max-width:923px){
+    ul{
+        width: 80%;
+}
+    .imq{
+        margin-right: 30%;
+    }
+    
+}
+
+
+@media  (max-width:876px){
+
+    
+    ul{
+        width: 85%;
+  
+}
+    
+    #titleresult{
+       margin-left: 80%;
+        font-size: 17px;
+    }
+    #tresullt{
+        margin-left: 55%;
+    }
+    
+
+    p{
+        font-size: 13px;
+    }
+    #Square{
+        width: 350px;
+        height: 100px;
+        margin-left: 80%;
+    }
+    #Squaretext{
+        width: 300px;
+        margin-left: 8%;
+        margin-top: 5%;
+
+    }
+    
+    #doctor{
+        width: 150px;
+        height: 30px;
+        font-size: 17px;
+    }
+    
+}
+
+@media  (max-width:817px){
+    ul{
+        width: 90%;
+  
+}
+    
+     .imq{
+        margin-right: 25%;
+    }
+    
+}
+
+@media  (max-width:772px){
+    ul{
+        width: 95%;
+}
+      .imq{
+        margin-right: 20%;
+    }
+    
+    #c{
+        height: 15px;
+        width: 15px;
+        margin-top: 100%;
+    }
+    
+    h1{
+        margin-top: 3%;
+    }
+    
+    #fotimg{
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+    
+    #inastagram{
+        height: 30px;
+        width: 43px;
+        margin-top: 5%;
+    }
+    
+    #email{
+        height: 30px;
+        width: 43px; 
+        margin-top: 5%;
+    }
+    #location{
+        height: 30px;
+        width: 43px;
+        margin-top: 5%;
+    }
+    
+    #moq2020{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    
+}
+
+
+@media  (max-width:733px){
+    
+    #hlogo{
+        float: right;
+        width: 25px;
+        height: 39px;
+        margin-right: 0.5cm;
+        margin-top: 18px;
+    }
+    #hleft{
+        float: left;
+        margin-right: 0%;
+        margin-left: 0;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        height: 1000px;
+        border: solid 0.01px;
+        width: 50%;
+        background-color: white;
+    }
+    
+    #menu{
+        display: block;
+        float: left;
+
+    }
+    
+    #close{
+        display: block;
+        height: 20px;
+        width: 20px;
+        float: left;
+        margin:1% 0 0 3%;
+        
+    }
+    
+    
+    ul{
+    float: none;
+    width: 100%;
+    margin: 15% 0 0 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+    a{
+    font-size: 20px;
+}
+
+    li{
+    float: none;
+    margin: 5% 0 0 0;
+    
+}
+    
+    
+    #tresullt{
+        margin-left: 50%;
+    }
+    
+    
+    
+}
+
+@media  (max-width:705px){
+    .imq{
+        width: 220px;
+        height:220px;
+        margin-top: 30%;
+    }
+    .qustions{
+        margin-top: 22%;
+        width: 250px;
+        
+    }
+    .qustions p{
+        font-size: 20px;
+    }
+    
+}
+
+@media  (max-width:628px){
+            #fotimg{
+        margin-left: 20%;
+    }
+    
+}
+
+
+@media  (max-width:610px){
+    
+    .imq{
+        width: 200px;
+        height:200px;
+        margin-right: 15%;
+    }
+    
+    #tresullt{
+        margin-left: 45%;
+    }
+    
+    #doctor{
+        margin-left: 95%;
+    }
+    
+
+   
+}
+
+
+@media  (max-width:587px){
+    #fotimg{
+        margin-left: 15%;
+    }
+    
+    #Square{
+        margin-left: 70%;
+    }
+    
+}
+
+@media  (max-width:547px){
+    
+    .imq{
+        margin-right: 10%;
+        margin-top: 40%;
+    }
+    
+    .qustions{
+        margin-top: 30%;
+        
+    }
+    
+    
+}
+
+
+@media  (max-width:520px){
+    #tresullt{
+        margin-left: 35%;
+    }    
+    
+}
+
+@media  (max-width:517px){
+    .imq{
+        width: 170px;
+        height:170px;
+        margin-right: 5%;
+    }
+    
+    .ri{
+        margin-top: 70%;
+    }
+    
+    .qustions{
+        margin-top: 0;
+        width: 250px;
+        
+    }
+    
+    .qustions p{
+        font-size: 15px;
+    }
+    
+    input{
+        width: 15px;
+        height:15px;
+        
+    }
+    
+        #fotimg{
+        margin-left: 10%;
+        
+    }
+    
+        #Square{
+        margin-left: 65%;
+    }
+    
+}
+
+
+@media  (max-width:485px){
+    
+    #fotimg{
+        margin-left: 5%;
+    }
+    
+}
+
+@media  (max-width:460px){
+  
+    
+    #moq2020{
+        width: 100px;
+    }
+    h1{
+        width: 150px;
+    }
+    .imq{
+        float: right;
+        margin-right: 7%;
+        margin-top: 43%;
+    }
+    
+    .qustions{
+        width: 200px;
+         margin-top: 10%;
+    }
+    
+      #tresullt{
+        margin-left: 30%;
+    }    
+    
+    
+}
+
+@media  (max-width:440px){
+    
+    #titleresult{
+        margin-left: 55%;
+
+        
+    }
+    #tresullt{
+        width: 300px;
+        margin-left: 50%;
+    }
+    
+    #Square{
+        margin-left: 55%;
+    }
+    
+    #doctor{
+        margin-left: 80%;
+
+    }
+    
+    
+}
+
+@media  (max-width:414px){
+    
+    .imq{
+        margin-top: 55%;
+    }
+    
+    .ri{
+        margin-top:80%; 
+        
+    }
+    
+    #result{
+        margin-top: 50%;
+        
+    }
+    #titleresult{
+        text-align: center;
+        margin-left: 70%;
+
+    }
+    
+    #tresullt{
+        width: 300px;
+        height: 25px;
+        margin-left: 54%;
+    }
+    
+    #Square{
+        margin-left: 56%;
+    }
+    #Squaretext{
+        margin-top: 3.5%;
+    }
+    
+    #doctor{
+        margin-left: 81%;
+
+    }
+    h1{
+        margin-top: 6%;
+    }
+    
+    #moq2020{
+        margin-top: 2%;
+        margin-left: 12%;
+    }
+    
+    #fotimg{
+        margin-top: 4%;
+    }
+    
+    #soshiallogo{
+        margin-top: 3%;
+    }
+    
+}
+
+@media  (max-width:383px){
+    #soshiallogo{
+        margin-right: 1%;   
+    }
+    #fotimg{
+     width: 60px;
+    height: 36px;
+    }
+    
+}
+
+@media  (max-width:375px){
+    
+    
+    .imq{
+        margin-right: 3%;
+        width: 160px;
+        height: 160px;
+    }
+    
+        
+    #titleresult{
+        text-align: center;
+        margin-left: 68%;
+            
+    }
+    #tresullt{
+            width: 350px;
+            margin-left: 35%;
+    }
+    
+        #Square{
+        margin-left: 52%;
+    }
+    
+    #Squaretext{
+        margin-left: 7%;
+
+    }
+    
+    #doctor{
+        margin-left: 80%;
+
+    }
+    
+}
+
+
+/*
+    margin-left: 80%;
+Squaretext
+    
+*/
